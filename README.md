@@ -1,5 +1,7 @@
 # boil-node-jest-eslint
 
+![example](./boil-node-jest-eslint.gif)
+
 ## info
 
 Minimal starter for Node.js. Configured with Jest, ESLint and Nodemon:
