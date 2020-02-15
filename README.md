@@ -1,6 +1,6 @@
-# boil-node-jest-eslint
+# starter-node-jest-eslint
 
-![example](./boil-node-jest-eslint.gif)
+![example](./starter-node-jest-eslint.gif)
 
 ## info
 

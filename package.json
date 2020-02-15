@@ -1,5 +1,5 @@
 {
-  "name": "boil-node-jest-eslint",
+  "name": "starter-node-jest-eslint",
   "version": "1.0.0",
   "description": "Minimal Node, Jest, Eslint starter.",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:11un/boil-node-jest-eslint.git"
+    "url": "git@github.com:11un/starter-node-jest-eslint.git"
   },
   "keywords": [],
   "author": "llun",
   "license": "none",
   "bugs": {
-    "url": "https://github.com/11un/boil-node-jest-eslint/issues"
+    "url": "https://github.com/11un/starter-node-jest-eslint/issues"
   },
-  "homepage": "https://github.com/11un/boil-node-jest-eslint#readme",
+  "homepage": "https://github.com/11un/starter-node-jest-eslint#readme",
   "devDependencies": {
     "@types/jest": "^25.1.2",
     "eslint": "^6.8.0",
