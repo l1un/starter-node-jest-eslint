@@ -7,17 +7,19 @@
 Minimal starter for Node.js. Configured with Jest, ESLint and Nodemon:
 Clone. Run. Test. Build.
 
-### structure
-
-- "Hello World" `index.js` ready to run.
-- Example module in  `src/utils` that logs color message.
-- Example test file for the module in `__tests__`.
+- `index.js` "Hello World"
+- `src/utils/lLog.js` module example
+- `__tests__/lLog.test.js` tests example
+- `nodemon` in case it's not installed globally
+- `.eslintrc.js` setup for Airbnb, Jest, import
+- `jsconfig.json` Coc, Syntastic, VSCode suggest/auto-complete
+- `@types/jest` Coc, ALE, YCM, VSCode suggest/lint/auto-complete
 
 ### install
 
 ```sh
-git clone <this-directory-path> <destination-path>
-cd <destination-path>
+git clone https://github.com/11un/starter-node-jest-eslint.git <dir>
+cd <dir>
 npm install
 ```
 
@@ -32,18 +34,3 @@ npm test
 npm test -- --watchAll
 npm test -- --coverage
 ```
-
-### config files
-
-- `.eslintrc.js` - airbnb, jest, import
-- `jsconfig.json` - useful for Coc, Syntastic, VS?, ...
-
-### devDependencies
-
-- `jest`
-- `nodemon` - in case it's not installed globally
-- `@types/jest` - auto-complete and linting support (tsserver, Coc, ALE, YCM, ...)
-- `eslint`
-- `eslint-config-airbnb-base`
-- `eslint-plugin-import`
-- `eslint-plugin-jest`
